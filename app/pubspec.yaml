@@ -6,23 +6,33 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-    sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-    flutter:
-        sdk: flutter
-    cupertino_icons: ^1.0.0
-    rflutter_alert: ^1.1.0
-    font_awesome_flutter: ^8.11.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  rflutter_alert: ^1.1.0
+  font_awesome_flutter: ^8.11.0
+  geolocator: ^6.1.13
+  http: ^0.12.2
+  flutter_spinkit: ^4.1.2+1
 
 dev_dependencies:
-    flutter_test:
-        sdk: flutter
+  flutter_test:
+    sdk: flutter
 
 flutter:
-    uses-material-design: true
+  uses-material-design: true
 
-    assets:
-        - assets/i-am-poor/
-        - assets/8-ball/
-        - assets/destini/
+  assets:
+    - assets/i-am-poor/
+    - assets/8-ball/
+    - assets/destini/
+    - assets/clima/images/
+
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: assets/clima/fonts/SpartanMB-Black.otf
+          weight: 900
