@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/app_card.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/app_text.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/app_card.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/app_text.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 const selectedCardColor = Color(0xFF1D1E33);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/MainButton.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/app_card.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/main_button.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/app_card.dart';
 
 class ResultsPage extends StatelessWidget {
   final String bmiResult;

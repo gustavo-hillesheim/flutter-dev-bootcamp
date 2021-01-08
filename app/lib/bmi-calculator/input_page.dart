@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/MainButton.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/gender_selector.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/height_selector.dart';
-import 'package:flutter_dev_bootcamp/bmi-calculator/number_selector.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/main_button.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/gender_selector.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/height_selector.dart';
+import 'package:flutter_dev_bootcamp/bmi-calculator/components/number_selector.dart';
 import 'package:flutter_dev_bootcamp/bmi-calculator/results_page.dart';
 import 'package:flutter_dev_bootcamp/bmi-calculator/value_listenable_extension.dart';
 
