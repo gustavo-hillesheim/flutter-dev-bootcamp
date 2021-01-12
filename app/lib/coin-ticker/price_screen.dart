@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter_dev_bootcamp/coin-ticker/coin_data.dart';
 import 'package:flutter_dev_bootcamp/coin-ticker/components/currency_selector.dart';
 import 'package:flutter_dev_bootcamp/coin-ticker/components/exchange_display.dart';

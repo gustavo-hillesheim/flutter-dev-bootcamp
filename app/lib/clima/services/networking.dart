@@ -13,6 +13,7 @@ class NetworkHelper {
       return jsonDecode(response.body);
     } else {
       print(response.statusCode);
+      return {};
     }
   }
 }
